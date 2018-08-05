@@ -38,7 +38,7 @@ type CreateRequest struct {
 		HostUUID                        string   `json:"hostUuid,omitempty"`
 		PrimaryStorageUUIDForRootVolume string   `json:"primaryStorageUuidForRootVolume,omitempty"`
 		Description                     string   `json:"description,omitempty"`
-		DefaultL3NetworkUUID            string   `json:"DefaultL3NetworkUuid,omitempty"`
+		DefaultL3NetworkUUID            string   `json:"defaultL3NetworkUuid,omitempty"`
 		ResourceUUID                    string   `json:"resourceUuid,omitempty"`
 		Strategy                        string   `json:"strategy,omitempty"`
 	} `json:"params,omitempty"`
